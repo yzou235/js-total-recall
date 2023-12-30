@@ -56,3 +56,8 @@ console.log(48 == '48');
 
 let animal = "cow";
 console.log(animal === "cow" ? "mooooo" : "Hey! You are not a cow.");
+
+// E. Driver's Ed //
+let age = 60;
+console.log(age >= 16 ? "Here are the keys!" : "Sorry, you're too young.");
+
