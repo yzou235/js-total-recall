@@ -3,7 +3,6 @@
 //////////////////////////////
 
 // A. Q + A //
-
 /*
 1. How do we assign a value to a variable?
 - Use "=" assignment operator.
@@ -22,7 +21,6 @@
  */
 
 // B. Strings //
-
 let firstVariable = "Hello World";
 firstVariable = 12;
 let secondVariable = firstVariable;
@@ -53,7 +51,6 @@ console.log(a < a + d); // note: the answer is a simple arithmetic equation, not
 console.log(48 == '48');
 
 // D. The farm //
-
 let animal = "cow";
 console.log(animal === "cow" ? "mooooo" : "Hey! You are not a cow.");
 
@@ -67,7 +64,6 @@ console.log(age >= 16 ? "Here are the keys!" : "Sorry, you're too young.");
 ///////////////
 
 // A The basics //
-
 // 1. Write a loop that will print out all the numbers from 0 to 10, inclusive
 for (let i = 0; i <= 10; i++) {
     console.log(i);
@@ -82,7 +78,6 @@ for (let i = 12; i <= 4000; i += 3) {
 }
 
 // B. Get even //
-
 // 1. Print out the numbers that are within the range of 1 - 100
 // 2. Adjust your code to add a message next to even numbers only that says: "<-- is an even number"
 for (let i = 0; i <= 100; i++) {
@@ -103,3 +98,17 @@ for (let i = 0; i <= 100; i++) {
         console.log(`I found a ${i}. Three is a crowd`);
     }
 }
+
+// D. Savings account //
+// 1. Write code that will save the sum of all the numbers between 1 - 10 to a variable called  bank_account.
+let bank_account = 0;
+for (let i = 1; i<= 10; i++) {
+    bank_account += i;
+}
+console.log(`bank_account = ${bank_account}`);
+// 2. You got a bonus! Your pay is now doubled each week. Write code that will save the sum of all the numbers between 1 - 100 multiplied by 2.
+bank_account = 0;
+for (let i = 1; i<= 100; i++){
+    bank_account += i*2;
+}
+console.log(`bank_account with bonus = ${bank_account}`);
