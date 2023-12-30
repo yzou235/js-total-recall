@@ -21,5 +21,17 @@
 -  A common guideline is to spend a significant amount of time upfront on problem-solving, design, and planning (possibly 50-80%), and the remaining time on actual implementation. 
  */
 
-// B. Strings
+// B. Strings //
+
+let firstVariable = "Hello World";
+firstVariable = 12;
+let secondVariable = firstVariable;
+secondVariable = "A String";
+console.log(`The value of firstVariable is ${firstVariable}.`);
+let yourName = "YZ";
+let intro = "Hello, my name is " + yourName;
+console.log(intro);
+
+// C. Booleans //
+
 
