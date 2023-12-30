@@ -52,3 +52,7 @@ console.log(a + b == c); // note: a < b < c is NOT CORRECT (and is not a valid J
 console.log(a < a + d); // note: the answer is a simple arithmetic equation, not something "weird"
 console.log(48 == '48');
 
+// D. The farm //
+
+let animal = "cow";
+console.log(animal === "cow" ? "mooooo" : "Hey! You are not a cow.");
